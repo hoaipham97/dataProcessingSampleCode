@@ -33,7 +33,7 @@ object RetargetingTest {
 //         |SUM(CASE WHEN Cycle_Day < 3 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_2_gross,
 //         |SUM(CASE WHEN Cycle_Day < 4 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_3_gross,
 //         |SUM(CASE WHEN Cycle_Day < 8 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_7_gross,
-//         |SUM(CASE WHEN Cycle_Day < 15 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_14_gross,
+//         |SUM(CASE WHEN Cycle_Day < 14 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_14_gross,
 //         |SUM(CASE WHEN Cycle_Day < 31 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_30_gross,
 //         |SUM(CASE WHEN Cycle_Day < 46 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_45_gross,
 //         |SUM(CASE WHEN Cycle_Day < 61 THEN Event_Revenue_USD ELSE 0 END) AS af_purchase_sum_day_60_gross,
